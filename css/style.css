@@ -7,26 +7,11 @@ body {
     background: #25343f;
     color: #fff;
     font-family: "Raleway", sans-serif;
+    min-height: 5000px;
 }
 
 a {
     color: #fff;  
-}
-.me {
-    width: 400px;
-    margin: 90px auto;
-}
-.me p,
-.me h1 {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-}
-.me p {
-    font-weight: 200;
-}
-.me span {
-    font-weight: bold;
 }
 .social {
     position: fixed;
@@ -85,11 +70,11 @@ a {
     background-color: rgb(0, 187, 255);
 }
 .social ul li:hover i.fa-facebook{
-    background-color: rgb(70, 60, 123);
+    background-color: rgb(17, 74, 196);
 }
 
 .social ul li:hover i.fa-dribbble{
-    background-color: rgb(43, 189, 30);
+    background-color: rgb(11, 134, 52);
 }
 .social ul li:hover i.fa-behance{
     background-color: rgb(123, 60, 112);
