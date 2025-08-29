@@ -4,10 +4,10 @@
   text-decoration: none;
 }
 body {
-  background: #25343f;
+  background: #2572aa;
   color: #fff;
   font-family: "Raleway", sans-serif;
-  min-height: 5000px;
+  min-height: 200vh;
 }
 
 a {
@@ -66,18 +66,28 @@ a {
   transition: all 1s;
 }
 
-.social ul li:hover i.fa-twitter {
-  background-color: rgb(0, 187, 255);
+.social ul li:hover i.fa-github {
+  background-color: rgb(0, 0, 0);
 }
-.social ul li:hover i.fa-facebook {
-  background-color: rgb(17, 74, 196);
+i.fa-github {
+  padding: 7px 13px 14px 8px !important;
+  font-size: 30px !important;
 }
-
+.social ul li:hover i.fa-youtube {
+  background-color: rgb(255, 0, 0);
+}
+i.fa-youtube {
+  padding: 8px 14px 14px 8px !important;
+  font-size: 30px !important;
+}
 .social ul li:hover i.fa-dribbble {
-  background-color: rgb(11, 134, 52);
+  background-color: #ea4c89;
+}
+i.fa-dribbble {
+  padding: 10px 11px 10px 9px !important;
 }
 .social ul li:hover i.fa-behance {
-  background-color: rgb(123, 60, 112);
+  background-color: rgb(4, 86, 226);
 }
 
 .social ul li i {
@@ -100,4 +110,31 @@ a {
 }
 i.fa-facebook {
   padding: 10px 15px 10px 5px !important;
+}
+
+.MDJAminDiv {
+  z-index: 4444;
+  position: fixed;
+  bottom: 5%;
+  left: 2%;
+}
+
+.MDJAmin {
+  text-decoration: none;
+  border-bottom: 1px dashed rgb(204, 204, 204);
+  border-top: 1px dashed rgb(204, 204, 204);
+  /* border-bottom: 1px dashed rgb(44, 44, 44); */
+  /* border-top: 1px dashed rgb(44, 44, 44); */
+  padding: 4px 0;
+  /* color: rgba(44, 44, 44, 0.525); */
+  color: rgba(204, 204, 204, 0.414);
+  font-family: monospace;
+  font-style: italic;
+  font-size: 1em;
+  transition: all 0.5s;
+}
+
+.MDJAmin:hover {
+  /* color: #000000; */
+  color: rgb(255, 247, 0);
 }
